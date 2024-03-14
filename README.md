@@ -3,12 +3,12 @@ Dockerfile written to build image and create containers using docker compose fil
 Tour &amp; Travel Project (Using HTML, CSS, php, Javascript).
 
 ## Dockerfile
-FROM ubuntu
-RUN apt-get update \
+FROM ubuntu<br>
+RUN apt-get update \<br>
   && apt-get install -y apache2
-COPY . /var/www/html/
-CMD ["apachectl", "-D", "FOREGROUND"]
-EXPOSE 80
+<br>COPY . /var/www/html/
+<br>CMD ["apachectl", "-D", "FOREGROUND"]
+<br>EXPOSE 80
 
 ## Docker compose file
 version: '2'<br>
