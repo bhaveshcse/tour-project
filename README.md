@@ -1,5 +1,5 @@
 ## Tour-Project (https://yash-srivastav16.github.io/Tour-Project/)
-Dockerfile written to build image and create containers using docker compose file. 
+Dockerfile written to build image and created containers using docker compose file. 
 Tour &amp; Travel Project (Using HTML, CSS, php, Javascript).
 
 ## Dockerfile
